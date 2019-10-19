@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="tollgateName"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/tollgateName"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="date"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/date"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="amount"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/amount"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="status"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/status"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="reference"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/reference"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="numberplate"
+            android:fontFamily="@font/josefin_bold"
+            android:id="@+id/numberplate"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context=".AdvancePayment">
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/righteous"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:text="Pay in advance"
+
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/josefin_bold"
+        android:id="@+id/tollgate"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tollgateE"
+        android:fontFamily="@font/josefin_bold"
+        android:hint="Tollgate number"
+
+        />
+
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/josefin_bold"
+        android:text="Pay"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
